@@ -49,6 +49,10 @@ form {
  .subject-group:hover {
             background-color: #f0f8ff;
         }
+ input[type="checkbox"] {
+            margin-right: 15px;
+            width: 22px;
+
 
 
 
