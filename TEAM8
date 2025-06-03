@@ -122,6 +122,8 @@ form {
 		</div>
 
             <div class="subject-group">
+		    <input type="checkbox" id="subject4" name="coreSubjects" value="Web technology" />
+
 
 
 
