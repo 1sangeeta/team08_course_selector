@@ -57,6 +57,9 @@ form {
 	    accent-color: #4a90e2;
             transition: accent-color 0.3s ease;
         }
+ label {
+            font-size: 18px;
+            color: #333;
 
 
 
