@@ -163,6 +163,12 @@ form {
                 resultArea.style.borderColor = '#c0392b';
 		     } else {
                 resultArea.textContent = 'You have selected: ' + selected.join(', ');
+			      resultArea.style.color = '#1a3c72';
+                resultArea.style.backgroundColor = '#e6f4ff';
+                resultArea.style.borderColor = '#4a90e2';
+            }
+        });
+
 
 
 
