@@ -149,6 +149,12 @@ form {
         const resultArea = document.getElementById('resultArea');
 	     form.addEventListener('submit', function(event) {
             event.preventDefault();
+		     // Collect checked subjects
+            const selected = [];
+		     const checkboxes = document.querySelectorAll('input[name="coreSubjects"]:checked');
+
+
+
 
 
 
