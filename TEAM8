@@ -75,6 +75,10 @@ form {
 	    font-weight: 600;
             transition: background-color 0.3s ease;
         }
+ .submit-btn:hover {
+            background-color: #357ABD;
+        }
+
 
 
 
