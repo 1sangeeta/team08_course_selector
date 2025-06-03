@@ -139,6 +139,9 @@ form {
 </nav>
 </button>
         </form>
+	 <div class="result" id="resultArea">
+            <!-- Selected subjects will be shown here -->
+
 
         
 
