@@ -111,6 +111,9 @@ form {
 		    <input type="checkbox" id="subject1" name="coreSubjects" value="Mathematics" />
 <label for="subject1">Mathematics</label>
             </div>
+	    <div class="subject-group">
+                <input type="checkbox" id="subject2" name="coreSubjects" value="Physics" />
+
 
 
 
