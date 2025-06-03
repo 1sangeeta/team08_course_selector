@@ -155,6 +155,9 @@ form {
 		     checkboxes.forEach((checkbox) => {
                 selected.push(checkbox.value);
             });
+		     // Show message based on selection
+            if (selected.length === 0) {
+
 
 
 
