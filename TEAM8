@@ -78,6 +78,8 @@ form {
  .submit-btn:hover {
             background-color: #357ABD;
         }
+ .result {
+            margin-top: 30px;
 
 
 
