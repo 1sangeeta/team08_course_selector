@@ -161,6 +161,9 @@ form {
                 resultArea.style.color = '#c0392b'; // red for warning
 		    resultArea.style.backgroundColor = '#fdecea';
                 resultArea.style.borderColor = '#c0392b';
+		     } else {
+                resultArea.textContent = 'You have selected: ' + selected.join(', ');
+
 
 
 
