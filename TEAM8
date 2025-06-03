@@ -84,6 +84,8 @@ form {
             border-radius: 8px;
 	    background-color: #e6f4ff;
             border: 1px solid #4a90e2;
+	    color: #1a3c72;
+            font-weight: 600;
 
 
 
