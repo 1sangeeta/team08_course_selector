@@ -88,6 +88,9 @@ form {
             font-weight: 600;
 	     min-height: 40px;
         }
+ /* Responsive */
+        @media (max-width: 480px) {
+
 
 
 
