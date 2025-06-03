@@ -168,6 +168,9 @@ form {
                 resultArea.style.borderColor = '#4a90e2';
             }
         });
+	     </script>
+</body>
+</html>
 
 
 
