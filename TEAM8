@@ -159,6 +159,9 @@ form {
             if (selected.length === 0) {
 		    resultArea.textContent = 'Please select at least one subject.';
                 resultArea.style.color = '#c0392b'; // red for warning
+		    resultArea.style.backgroundColor = '#fdecea';
+                resultArea.style.borderColor = '#c0392b';
+
 
 
 
