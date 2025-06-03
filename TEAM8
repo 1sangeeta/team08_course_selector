@@ -108,6 +108,8 @@ form {
         <h1>Core Subject Selection</h1>
 	<form id="subjectForm">
             <div class="subject-group">
+		    <input type="checkbox" id="subject1" name="coreSubjects" value="Mathematics" />
+
 
 
 
