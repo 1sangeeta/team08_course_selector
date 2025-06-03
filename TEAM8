@@ -14,6 +14,8 @@
         }
 body {
             background: #f9fafb;
+	    display: flex;
+            justify-content: center;
 
 
 
