@@ -131,6 +131,9 @@ form {
             </div>
 	    <div class="subject-group">
                 <input type="checkbox" id="subject6" name="coreSubjects" value="English" />
+		<label for="subject6">English</label>
+            </div>
+
 
 
 
