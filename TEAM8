@@ -60,6 +60,10 @@ form {
  label {
             font-size: 18px;
             color: #333;
+	     cursor: pointer;
+            user-select: none;
+        }
+
 
 
 
