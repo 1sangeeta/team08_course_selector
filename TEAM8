@@ -6,5 +6,8 @@
     <title>Core Subject Selection</title>
     <style>
         /* Reset some default styles */
+* {
+            box-sizing: border-box;
+            margin: 0;
 
 
