@@ -106,6 +106,9 @@ form {
 <body>
 	<div class="container">
         <h1>Core Subject Selection</h1>
+	<form id="subjectForm">
+            <div class="subject-group">
+
 
 
 
