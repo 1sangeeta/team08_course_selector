@@ -37,6 +37,9 @@ form {
             display: flex;
 	    flex-direction: column;
         }
+.subject-group {
+            display: flex;
+
 
 
 
