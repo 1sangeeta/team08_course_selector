@@ -63,6 +63,9 @@ form {
 	     cursor: pointer;
             user-select: none;
         }
+ .submit-btn {
+            margin-top: 25px;
+            padding: 12px;
 
 
 
