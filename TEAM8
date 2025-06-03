@@ -152,6 +152,10 @@ form {
 		     // Collect checked subjects
             const selected = [];
 		     const checkboxes = document.querySelectorAll('input[name="coreSubjects"]:checked');
+		     checkboxes.forEach((checkbox) => {
+                selected.push(checkbox.value);
+            });
+
 
 
 
