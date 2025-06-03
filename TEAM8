@@ -93,6 +93,11 @@ form {
 		.container {
                 padding: 20px;
             }
+		label {
+                font-size: 16px;
+            }
+
+
 
 
 
