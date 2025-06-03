@@ -41,6 +41,9 @@ form {
             display: flex;
 	    align-items: center;
             margin-bottom: 20px;
+	    padding: 10px 15px;
+            border: 1px solid #ddd;
+
 
 
 
