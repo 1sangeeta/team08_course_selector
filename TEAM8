@@ -117,12 +117,15 @@ form {
             </div>
 <div class="subject-group">
                 <input type="checkbox" id="subject3" name="coreSubjects"
-						     value="Chemistry" />
-                <label for="subject3">Chemistry</label>
+						     value="Source code and managment" />
+                <label for="subject3">Source code and management</label>
 		</div>
 
             <div class="subject-group">
 		    <input type="checkbox" id="subject4" name="coreSubjects" value="Web technology" />
+		    <label for="subject4">Web technology</label>
+            </div>
+
 
 
 
