@@ -1,2 +1,234 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Core Subject Selection</title>
+    <style>
+        /* Reset some default styles */
+* {
+            box-sizing: border-box;
+            margin: 0;
+	    padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+body {
+            background: #f9fafb;
+	    display: flex;
+            justify-content: center;
+	    padding: 40px 20px;
+        }
+.container {
+            background: white;
+	    padding: 30px 40px;
+            border-radius: 12px;
+	    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            max-width: 500px;
+	    width: 100%;
+        }
+h1 {
+            text-align: center;
+	    margin-bottom: 30px;
+            color: #222;
+	    font-weight: 700;
+            letter-spacing: 1.2px;
+        }
+form {
+            display: flex;
+	    flex-direction: column;
+        }
+.subject-group {
+            display: flex;
+	    align-items: center;
+            margin-bottom: 20px;
+	    padding: 10px 15px;
+            border: 1px solid #ddd;
+	    border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+ .subject-group:hover {
+            background-color: #f0f8ff;
+        }
+ input[type="checkbox"] {
+            margin-right: 15px;
+            width: 22px;
+	    height: 22px;
+            cursor: pointer;
+	    accent-color: #4a90e2;
+            transition: accent-color 0.3s ease;
+        }
+ label {
+            font-size: 18px;
+            color: #333;
+	     cursor: pointer;
+            user-select: none;
+        }
+ .submit-btn {
+            margin-top: 25px;
+            padding: 12px;
+	    font-size: 18px;
+            background-color: #4a90e2;
+            color: white;
+	     border: none;
+            border-radius: 8px;
+            cursor: pointer;
+	    font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+ .submit-btn:hover {
+            background-color: #357ABD;
+        }
+ .result {
+            margin-top: 30px;
+	    padding: 15px 20px;
+            border-radius: 8px;
+	    background-color: #e6f4ff;
+            border: 1px solid #4a90e2;
+	    color: #1a3c72;
+            font-weight: 600;
+	     min-height: 40px;
+        }
+ /* Responsive */
+        @media (max-width: 480px) {
+		.container {
+                padding: 20px;
+            }
+		label {
+                font-size: 16px;
+            }
+		.submit-btn {
+                font-size: 16px;
+		padding: 10px;
+            }
+        }
+	</style>
+</head>
+<body>
+	<div class="container">
+        <h1>Core Subject Selection</h1>
+	<form id="subjectForm">
+            <div class="subject-group">
+		    <input type="checkbox" id="subject1" name="coreSubjects" value="Mathematics" />
+<label for="subject1">Mathematics</label>
+            </div>
+	    <div class="subject-group">
+                <input type="checkbox" id="subject2" name="coreSubjects" value="Physics" />
+<label for="subject2">Physics</label>
+            </div>
+<div class="subject-group">
+                <input type="checkbox" id="subject3" name="coreSubjects"
+						     value="Source code and managment" />
+                <label for="subject3">Source code and management</label>
+		</div>
+
+            <div class="subject-group">
+		    <input type="checkbox" id="subject4" name="coreSubjects" value="Web technology" />
+		    <label for="subject4">Web technology</label>
+            </div>
+	    <div class="subject-group">
+                <input type="checkbox" id="subject5" name="coreSubjects" value="Computer Science" />
+		<label for="subject5">Computer Science</label>
+            </div>
+	    <div class="subject-group">
+                <input type="checkbox" id="subject6" name="coreSubjects" value="English" />
+		<label for="subject6">English</label>
+            </div>
+	    <button type="submit" class="submit-btn">
+<nav>
+	<a href="time table.html">create a time table</a>
+</nav>
+</button>
+        </form>
+	 <div class="result" id="resultArea">
+            <!-- Selected subjects will be shown here -->
+	     </div>
+    </div>
+
+    <script>
+	     const form = document.getElementById('subjectForm');
+        const resultArea = document.getElementById('resultArea');
+	     form.addEventListener('submit', function(event) {
+            event.preventDefault();
+		     // Collect checked subjects
+            const selected = [];
+		     const checkboxes = document.querySelectorAll('input[name="coreSubjects"]:checked');
+		     checkboxes.forEach((checkbox) => {
+                selected.push(checkbox.value);
+            });
+		     // Show message based on selection
+            if (selected.length === 0) {
+		    resultArea.textContent = 'Please select at least one subject.';
+                resultArea.style.color = '#c0392b'; // red for warning
+		    resultArea.style.backgroundColor = '#fdecea';
+                resultArea.style.borderColor = '#c0392b';
+		     } else {
+                resultArea.textContent = 'You have selected: ' + selected.join(', ');
+			      resultArea.style.color = '#1a3c72';
+                resultArea.style.backgroundColor = '#e6f4ff';
+                resultArea.style.borderColor = '#4a90e2';
+            }
+        });
+	     </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
